@@ -1,0 +1,511 @@
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*SECCION INICIO*/
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("images/354583-admin_3840x2400.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+
+
+/* menu lateral */
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color:#dc30d0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.inicio .contenido-seccion header .nav-bar{
+    position:fixed;
+    background-color: #02943a;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 75%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #befccb;
+}
+
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #dc30d0;
+    border: 1px solid #dc30d0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #fff;
+    background-color: #02943a;
+    box-shadow: 0 0 20px #fff;
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #02943a;
+    position:absolute ;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+
+/* estilos generales */
+.titulo-seccion{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+/*SECCION INFO PERSONAL*/
+.sobre-mi{
+    background-color: #dc30d0;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobre-mi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.sobre-mi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color:black;
+}
+
+
+/* SECCION HABILIDADES */
+.skills{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: black
+    url("images/354583-admin_3840x2400.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.skills .contenido-seccion{
+    width: 800px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.skills .contenido-seccion .progress-bar{
+    display: flex;
+    border: 1px solid #0a0c0b;
+    padding: 3px;
+    border-radius: 3px;
+    margin-right: 10px;
+    background-color: #dc30d0;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+/*SECCION EDUCACION*/
+
+.educacion{
+    background-color: #dc30d0;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.educacion .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.educacion .contenido-seccion .titulo-seccion{
+     color: hsl(0, 0%, 100%);
+     text-align: center;
+     padding-top: 25px;
+     border:5px solid white;
+     margin:20px 20px 30px 20px;
+     height: 100px;
+
+}
+.educacion .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.educacion .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    flex-direction:row;
+
+}
+.educacion .contenido-seccion .info .col{
+    width: 45%;
+}
+.educacion .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: #940253;
+    font-weight: bold;
+    border: 2px solid #940253;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.educacion .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.educacion .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.educacion .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.educacion .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.educacion .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+
+.educacion .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+
+/*SECCION PROYECTOS*/
+.proyectos-recientes{
+    padding: 40px;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("images/354583-admin_3840x2400.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+  
+  .proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display:block;
+    transform: all 0.2s ease ;
+  }
+
+  .proyectos-recientes .titulo-seccion{
+    
+    text-align: center;
+    justify-content: center;
+  }
+
+  .proyectos-recientes .seccion-descripcion{
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .proyectos-recientes .button{
+
+    color: black;
+    background-color: #02943a;
+    font-family: "Titillium Web" bold;
+    padding:3px;
+    
+  }
+  .proyectos-contenedor{
+  
+    padding-top: 60px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .overlay {
+  
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  .overlay p{
+  
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto{
+    position: relative;
+  }
+  
+  .proyecto:hover img{
+    opacity: 0.2;
+  }
+  
+  .proyecto:hover .overlay{
+    opacity: 1;
+  
+  }
+  
+
+  
+
+/*SECCION HABLEMOS*/
+
+  .contacto .row{
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: #dc30d0;
+    height: 600px;
+  }
+
+  .contacto .descripcion{
+    color:white;
+    font-size: 1.2rem;
+  }
+
+  .contacto button:hover{
+    background-color: white;
+    color: black;
+
+  }
+
+  .contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border:2px white solid;
+    padding: 1.25rem 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .contacto button:hover i{
+    color:black;
+
+  }
+ 
+  .formulario{
+
+    width: 500px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+  }
+
+  .formulario-titulo{
+    text-align: center;
+    margin-top: 0;
+    color:rgba(0,0,0,0.7);
+  }
+
+  .formulario-input, .formulario-label, .formulario-submit {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+   
+  }
+  
+  .formulario-input{
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+    background-color: transparent;
+    margin-bottom: 30px;
+  }
+
+  .formulario-input:focus{
+   outline: 1px solid rgba(0,0,0,0.7);
+
+  }
+  .formulario-input:focus + .formulario-label{
+    margin-top: -130px;
+ 
+   }
+
+  .formulario-label{
+    padding-left: 15px;
+    position: absolute;
+    text-align: left;
+    margin-top: -62px;
+    z-index: 1;
+    color:black;
+    transition: all 0.2s;
+  }
+
+  .formulario-submit{
+    background: rgba(0,0,0,0.7);
+    color:white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+
+  }
+.fijar{
+    margin-top:-135px;
+}
+
+/* SECCION CONTACTOS */
+.contacto{
+    color: #e6e6e6;
+    text-align: center;
+    background-color: #141414;
+    padding:10px 5px 10px 5px;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #940253;
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+    font-family: 'Titillium Web' bold;
+    font-size: 15px;
+    color: white;
+    background-color:#dc30d0;
+    text-align: center;
+}
+
+
+/*RESPONSIVE*/
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
