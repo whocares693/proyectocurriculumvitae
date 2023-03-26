@@ -6,3 +6,5 @@ Curriculum Vitae hecho con html,css y javascript a partir de un usuario aleatori
 <img width="959" alt="HazelReed 3" src="https://user-images.githubusercontent.com/76732792/227749968-714c7e59-3e82-41f0-9f59-8599eb6b8c14.png">
 <img width="960" alt="HazelReed 4" src="https://user-images.githubusercontent.com/76732792/227749969-e060418d-0a4b-4313-bf56-ddd2f3e498e9.png">
 <img width="957" alt="HazelReed5" src="https://user-images.githubusercontent.com/76732792/227750088-04a1fc39-e8ca-467b-8a8d-74f76e85d1d8.png">
+
+Se uso Google Fonts,Font Awesome y Bootstrap
